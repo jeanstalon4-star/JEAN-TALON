@@ -1,0 +1,76 @@
+/* Couleurs du café :
+   Noir : #000000
+   Jaune : #F2C200
+   Gris clair : #f2f2f2
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2; /* gris clair */
+    color: #000;
+}
+
+/* HEADER */
+header {
+    background: #000;           /* noir */
+    height: 25px;               /* hauteur voulue */
+    display: flex;              /* pour alignement */
+    align-items: center;        /* centrer verticalement */
+    justify-content: center;    /* centrer horizontalement */
+    color: #F2C200;             /* jaune */
+    padding: 0;                 /* enlever padding pour garder 25px */
+    overflow: hidden;           /* si image dépasse, on coupe */
+}
+
+
+header .logo {
+    height: 20px;   /* rentre dans le header */
+    width: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+/* CONTENU */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu-container {
+    width: 90%;
+    max-width: 900px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.menu-container h2 {
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* IMAGES DU MENU */
+.menu-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #000;
+    color: #F2C200;
+    padding: 10px;
+    font-size: 14px;
+}
